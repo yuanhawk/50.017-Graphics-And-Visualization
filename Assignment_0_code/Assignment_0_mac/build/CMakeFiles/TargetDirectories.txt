@@ -1,0 +1,4 @@
+/Users/pengsong/SongPeng/_Teaching/50.017_Graphics_and_Visualization/_50.017_Graphics_and_Visualisation_Git/Assignment/Assignment_0/Assignment_0_mac/build/CMakeFiles/rebuild_cache.dir
+/Users/pengsong/SongPeng/_Teaching/50.017_Graphics_and_Visualization/_50.017_Graphics_and_Visualisation_Git/Assignment/Assignment_0/Assignment_0_mac/build/CMakeFiles/edit_cache.dir
+/Users/pengsong/SongPeng/_Teaching/50.017_Graphics_and_Visualization/_50.017_Graphics_and_Visualisation_Git/Assignment/Assignment_0/Assignment_0_mac/build/CMakeFiles/Assignment_0.dir
+/Users/pengsong/SongPeng/_Teaching/50.017_Graphics_and_Visualization/_50.017_Graphics_and_Visualisation_Git/Assignment/Assignment_0/Assignment_0_mac/build/CMakeFiles/GLAD.dir

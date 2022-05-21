@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Assignment_0"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLAD">
+				<Option output="/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/libGLAD.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/includes"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Makefile&quot;  VERBOSE=1 GLAD"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLAD/fast">
+				<Option output="/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/libGLAD.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/includes"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Makefile&quot;  VERBOSE=1 GLAD/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Assignment_0">
+				<Option output="/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Assignment_0" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/includes"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment_0"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Assignment_0/fast">
+				<Option output="/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Assignment_0" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/includes"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment_0/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/src/Window.cpp">
+			<Option target="Assignment_0"/>
+		</Unit>
+		<Unit filename="/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/src/Window.h">
+			<Option target="Assignment_0"/>
+		</Unit>
+		<Unit filename="/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/src/glad.c">
+			<Option target="GLAD"/>
+		</Unit>
+		<Unit filename="/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/src/main.cpp">
+			<Option target="Assignment_0"/>
+		</Unit>
+		<Unit filename="/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake/modules/FindGLFW3.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
