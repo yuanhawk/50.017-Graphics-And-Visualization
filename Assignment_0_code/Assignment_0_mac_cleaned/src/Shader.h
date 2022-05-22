@@ -18,6 +18,8 @@ public:
     void UseShader();
     void ClearShader();
 
+    ~Shader();
+
 private:
     GLuint shaderID;
     char *vertexShaderSource;

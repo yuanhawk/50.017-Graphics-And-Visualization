@@ -6,7 +6,7 @@
 //#include <filesystem>
 
 Shader::Shader() {
-
+    shaderID = 0;
 }
 
 void Shader::CreateFromFiles(const char* vertexLocation, const char* fragmentLocation) {
@@ -104,4 +104,8 @@ void Shader::ClearShader() {
         glDeleteProgram(shaderID);
         shaderID = 0;
     }
+}
+
+Shader::~Shader() {
+    ClearShader();
 }

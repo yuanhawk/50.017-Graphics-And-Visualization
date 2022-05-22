@@ -16,6 +16,6 @@ add_library(GLAD "src/glad.c")
 set(LIBS ${LIBS} GLAD)
 include_directories(${CMAKE_SOURCE_DIR}/includes)
 
-add_executable(Assignment_0 src/main.cpp src/Window.cpp src/Shader.cpp)
+add_executable(Assignment_0 src/main.cpp src/Window.cpp src/Shader.cpp src/Mesh.cpp)
 target_link_libraries(Assignment_0 ${LIBS})
 target_link_libraries(Assignment_0 ${GLFW3_LIBRARY})
