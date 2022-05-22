@@ -126,6 +126,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/src/Shader.cpp">
+			<Option target="Assignment_0"/>
+		</Unit>
+		<Unit filename="/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/src/Shader.h">
+			<Option target="Assignment_0"/>
+		</Unit>
 		<Unit filename="/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/src/Window.cpp">
 			<Option target="Assignment_0"/>
 		</Unit>

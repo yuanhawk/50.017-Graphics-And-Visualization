@@ -142,6 +142,30 @@ Assignment_0/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment_0.dir/build.make CMakeFiles/Assignment_0.dir/build
 .PHONY : Assignment_0/fast
 
+src/Shader.o: src/Shader.cpp.o
+.PHONY : src/Shader.o
+
+# target to build an object file
+src/Shader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment_0.dir/build.make CMakeFiles/Assignment_0.dir/src/Shader.cpp.o
+.PHONY : src/Shader.cpp.o
+
+src/Shader.i: src/Shader.cpp.i
+.PHONY : src/Shader.i
+
+# target to preprocess a source file
+src/Shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment_0.dir/build.make CMakeFiles/Assignment_0.dir/src/Shader.cpp.i
+.PHONY : src/Shader.cpp.i
+
+src/Shader.s: src/Shader.cpp.s
+.PHONY : src/Shader.s
+
+# target to generate assembly for a file
+src/Shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment_0.dir/build.make CMakeFiles/Assignment_0.dir/src/Shader.cpp.s
+.PHONY : src/Shader.cpp.s
+
 src/Window.o: src/Window.cpp.o
 .PHONY : src/Window.o
 
@@ -224,6 +248,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Assignment_0"
 	@echo "... GLAD"
+	@echo "... src/Shader.o"
+	@echo "... src/Shader.i"
+	@echo "... src/Shader.s"
 	@echo "... src/Window.o"
 	@echo "... src/Window.i"
 	@echo "... src/Window.s"
