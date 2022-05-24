@@ -3,7 +3,7 @@
 //
 
 #include <glad/glad.h>
-
+#include <cstring>
 #include <iostream>
 #include <fstream>
 

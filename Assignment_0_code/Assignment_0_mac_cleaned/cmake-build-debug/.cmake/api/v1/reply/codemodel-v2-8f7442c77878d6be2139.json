@@ -41,14 +41,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Assignment_0::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Assignment_0-Debug-a5899a05e57977a90778.json",
+					"jsonFile" : "target-Assignment_0-Debug-d604bdacfb70615c2fe2.json",
 					"name" : "Assignment_0",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "GLAD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-GLAD-Debug-e1698c766c5701b9e1f2.json",
+					"jsonFile" : "target-GLAD-Debug-07cd23697bac8a88686d.json",
 					"name" : "GLAD",
 					"projectIndex" : 0
 				}
@@ -58,12 +58,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug",
-		"source" : "/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned"
+		"build" : "/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/cmake-build-debug",
+		"source" : "/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 3
+		"minor" : 4
 	}
 }

@@ -43,14 +43,14 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk"
+					"fragment" : "-g"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/includes"
+					"path" : "/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/includes"
 				}
 			],
 			"language" : "C",

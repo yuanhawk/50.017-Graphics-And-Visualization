@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/src/glad.c" "CMakeFiles/GLAD.dir/src/glad.c.o" "gcc" "CMakeFiles/GLAD.dir/src/glad.c.o.d"
+  "/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_0_code/Assignment_0_mac_cleaned/src/glad.c" "CMakeFiles/GLAD.dir/src/glad.c.o" "gcc" "CMakeFiles/GLAD.dir/src/glad.c.o.d"
   )
 
 # Targets to which this target links.
