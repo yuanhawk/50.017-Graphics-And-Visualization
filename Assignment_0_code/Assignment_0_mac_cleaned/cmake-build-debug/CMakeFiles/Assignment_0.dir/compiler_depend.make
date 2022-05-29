@@ -50,10 +50,15 @@ CMakeFiles/Assignment_0.dir/src/Shader.cpp.o: ../src/Shader.cpp \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-uintn.h \
   /usr/include/inttypes.h \
-  /usr/include/c++/12.1.0/iostream \
+  /usr/include/c++/12.1.0/cstring \
   /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
   /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/os_defines.h \
   /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/string.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/strings.h \
+  /usr/include/c++/12.1.0/iostream \
   /usr/include/c++/12.1.0/ostream \
   /usr/include/c++/12.1.0/ios \
   /usr/include/c++/12.1.0/iosfwd \
@@ -70,8 +75,6 @@ CMakeFiles/Assignment_0.dir/src/Shader.cpp.o: ../src/Shader.cpp \
   /usr/include/bits/types/__mbstate_t.h \
   /usr/include/bits/types/__FILE.h \
   /usr/include/bits/types/FILE.h \
-  /usr/include/bits/types/locale_t.h \
-  /usr/include/bits/types/__locale_t.h \
   /usr/include/c++/12.1.0/exception \
   /usr/include/c++/12.1.0/bits/exception.h \
   /usr/include/c++/12.1.0/bits/exception_ptr.h \
@@ -595,6 +598,9 @@ CMakeFiles/Assignment_0.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/c++/12.1.0/istream \
   /usr/include/c++/12.1.0/bits/istream.tcc \
   ../src/Shader.h \
+  /usr/include/c++/12.1.0/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
   /usr/include/c++/12.1.0/fstream \
   /usr/include/c++/12.1.0/bits/codecvt.h \
   /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/basic_file.h \
@@ -691,23 +697,15 @@ CMakeFiles/Assignment_0.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/12.1.0/initializer_list:
 
-/usr/include/c++/12.1.0/type_traits:
+/usr/include/c++/12.1.0/bits/predefined_ops.h:
 
-/usr/include/c++/12.1.0/bits/charconv.h:
+/usr/include/c++/12.1.0/bits/basic_ios.h:
 
-/usr/include/c++/12.1.0/cwchar:
-
-/usr/include/c++/12.1.0/bits/ostream.tcc:
-
-/usr/include/c++/12.1.0/bits/move.h:
-
-/usr/include/c++/12.1.0/bits/locale_classes.h:
+/usr/include/c++/12.1.0/debug/debug.h:
 
 /usr/include/c++/12.1.0/typeinfo:
 
 /usr/include/bits/wchar.h:
-
-/usr/include/bits/types/__locale_t.h:
 
 /usr/include/c++/12.1.0/bits/exception.h:
 
@@ -722,6 +720,12 @@ CMakeFiles/Assignment_0.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/bits/types/mbstate_t.h:
 
 /usr/include/bits/floatn-common.h:
+
+/usr/include/c++/12.1.0/bits/charconv.h:
+
+/usr/include/c++/12.1.0/cwchar:
+
+/usr/include/c++/12.1.0/type_traits:
 
 /usr/include/c++/12.1.0/bits/postypes.h:
 
@@ -743,7 +747,11 @@ CMakeFiles/Assignment_0.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/c++locale.h:
 
-/usr/include/c++/12.1.0/bits/nested_exception.h:
+/usr/include/bits/types/__locale_t.h:
+
+/usr/include/c++/12.1.0/iostream:
+
+/usr/include/sched.h:
 
 /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/cpu_defines.h:
 
@@ -757,6 +765,10 @@ CMakeFiles/Assignment_0.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/12.1.0/bits/allocator.h:
 
+/usr/include/strings.h:
+
+/usr/include/c++/12.1.0/ext/atomicity.h:
+
 /usr/include/bits/libc-header-start.h:
 
 /usr/include/c++/12.1.0/bits/basic_ios.tcc:
@@ -769,11 +781,17 @@ CMakeFiles/Assignment_0.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/12.1.0/bits/stl_iterator_base_funcs.h:
 
-/usr/include/bits/types/locale_t.h:
-
 /usr/include/bits/types/wint_t.h:
 
 /usr/include/locale.h:
+
+/usr/include/bits/types/locale_t.h:
+
+/usr/include/c++/12.1.0/bits/ostream.tcc:
+
+/usr/include/c++/12.1.0/bits/move.h:
+
+/usr/include/c++/12.1.0/bits/locale_classes.h:
 
 ../src/Window.h:
 
@@ -813,6 +831,12 @@ CMakeFiles/Assignment_0.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/c++config.h:
 
+/usr/include/string.h:
+
+/usr/include/bits/stdlib-float.h:
+
+/usr/include/bits/time64.h:
+
 /usr/include/bits/typesizes.h:
 
 /usr/include/bits/cpu-set.h:
@@ -834,10 +858,6 @@ CMakeFiles/Assignment_0.dir/src/main.cpp.o: ../src/main.cpp \
 ../src/Mesh.cpp:
 
 /usr/include/bits/types.h:
-
-/usr/include/bits/stdlib-float.h:
-
-/usr/include/bits/time64.h:
 
 /usr/include/bits/stdint-intn.h:
 
@@ -863,17 +883,21 @@ CMakeFiles/Assignment_0.dir/src/main.cpp.o: ../src/main.cpp \
 
 ../src/Shader.h:
 
-/usr/include/sched.h:
-
-/usr/include/c++/12.1.0/iostream:
+/usr/include/c++/12.1.0/cstring:
 
 /usr/include/bits/long-double.h:
+
+/usr/include/c++/12.1.0/bits/nested_exception.h:
 
 /usr/include/bits/types/struct_tm.h:
 
 /usr/include/c++/12.1.0/bits/char_traits.h:
 
 /usr/include/c++/12.1.0/cstdint:
+
+/usr/include/c++/12.1.0/bits/refwrap.h:
+
+/usr/include/bits/types/struct_timespec.h:
 
 /usr/include/c++/12.1.0/bits/localefwd.h:
 
@@ -893,8 +917,6 @@ CMakeFiles/Assignment_0.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/12.1.0/ext/type_traits.h:
 
-/usr/include/c++/12.1.0/ext/atomicity.h:
-
 /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/gthr-default.h:
 
 /usr/include/bits/types/__fpos_t.h:
@@ -913,9 +935,9 @@ CMakeFiles/Assignment_0.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/bits/errno.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include/stddef.h:
-
 /usr/include/bits/timex.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include/stddef.h:
 
 /usr/include/c++/12.1.0/string:
 
@@ -959,10 +981,6 @@ CMakeFiles/Assignment_0.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/atomic_word.h:
 
-/usr/include/bits/types/struct_timespec.h:
-
-/usr/include/c++/12.1.0/bits/refwrap.h:
-
 /usr/include/c++/12.1.0/cerrno:
 
 /usr/include/sys/single_threaded.h:
@@ -989,10 +1007,6 @@ CMakeFiles/Assignment_0.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/12.1.0/bits/ptr_traits.h:
 
-/usr/include/c++/12.1.0/bits/basic_ios.h:
-
-/usr/include/c++/12.1.0/debug/debug.h:
-
 /usr/include/c++/12.1.0/bits/stl_function.h:
 
 /usr/include/c++/12.1.0/backward/binders.h:
@@ -1002,5 +1016,3 @@ CMakeFiles/Assignment_0.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/12.1.0/bits/stl_algobase.h:
 
 /usr/include/c++/12.1.0/bits/utility.h:
-
-/usr/include/c++/12.1.0/bits/predefined_ops.h:

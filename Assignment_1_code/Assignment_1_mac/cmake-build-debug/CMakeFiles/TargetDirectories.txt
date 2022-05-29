@@ -1,0 +1,4 @@
+/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_1_code/Assignment_1_mac/cmake-build-debug/CMakeFiles/GLAD.dir
+/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_1_code/Assignment_1_mac/cmake-build-debug/CMakeFiles/Assignment_1.dir
+/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_1_code/Assignment_1_mac/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_1_code/Assignment_1_mac/cmake-build-debug/CMakeFiles/rebuild_cache.dir
