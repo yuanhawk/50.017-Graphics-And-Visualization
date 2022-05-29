@@ -105,7 +105,7 @@ int LoadInput(vector<float> &verList, vector<unsigned> &triList)
 
     loadmesh *lm = new loadmesh(verList, triList);
 
-    if (lm->ReadFile("../data/garg.obj")) {
+    if (lm->ReadFile("../data/sphere.obj")) {
         verList = lm->getVerList();
         triList = lm->getTriList();
     }

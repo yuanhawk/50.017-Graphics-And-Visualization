@@ -146,6 +146,4 @@ CMakeFiles/Assignment_1.dir/src/meshloading/loadmesh.cpp.o: \
  /usr/include/c++/12.1.0/bits/algorithmfwd.h \
  /usr/include/c++/12.1.0/bits/stl_heap.h \
  /usr/include/c++/12.1.0/bits/stl_tempbuf.h \
- /usr/include/c++/12.1.0/bits/uniform_int_dist.h \
- /usr/include/c++/12.1.0/utility \
- /usr/include/c++/12.1.0/bits/stl_relops.h
+ /usr/include/c++/12.1.0/bits/uniform_int_dist.h

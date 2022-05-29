@@ -28,7 +28,7 @@ bool loadmesh::ReadFile(const char *fileLocation) {
             if (line[1] == 'n') {
                 verNorm.push_back(line.substr(3, line.length()));
                 countNorm++;
-            } else {
+            } else if (line[1] == ' ') {
                 vert.push_back(line.substr(2, line.length()));
                 countVert++;
             }
@@ -53,6 +53,7 @@ bool loadmesh::ReadFile(const char *fileLocation) {
         line.append(vert[i] + " " + verNorm[i]);
         stringstream sstream(line);
         while(getline(sstream, line, ' ')) {
+            cout << line << endl;
             float val = stof(line);
             verList.push_back(val);
         }
