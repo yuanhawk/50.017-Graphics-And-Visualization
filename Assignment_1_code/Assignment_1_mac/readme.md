@@ -34,9 +34,9 @@ values starting from index 1, instead of 0 based indices that we are working wit
 
 https://stackoverflow.com/questions/4346556/loading-indices-from-wavefront-obj-format
 
-<img src="data/garg.obj">
-<img src="data/mickey.obj">
-<img src="data/sphere.obj">
+<img src="data/garg.png">
+<img src="data/mickey.png">
+<img src="data/sphere.png">
 
 
 3. Mesh Coloring: Change rendering color of the mesh model
