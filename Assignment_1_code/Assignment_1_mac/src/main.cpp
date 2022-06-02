@@ -22,11 +22,10 @@
 
 #include "shaderSource.h"
 #include "shader.h"
+
 #include "objmodel/objmodel.h"
 
-
 using namespace std;
-
 
 #define MAX_BUFFER_SIZE            1024
 
@@ -75,7 +74,6 @@ glm::vec3 colorTable[4] =
 int colorID = 0;
 glm::vec3  meshColor;
 
-
 // declaration
 void processInput(GLFWwindow *window);
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
@@ -115,25 +113,25 @@ int LoadInput(vector<float> &verList, vector<unsigned> &triList)
 // TODO: insert your code in this function for Mesh Coloring
 void SetMeshColor(int &colorID)
 {
-   
+    colorID = (colorID + 1) % (sizeof(colorTable) / sizeof(colorTable[0]));
 }
 
 // TODO: insert your code in this function for Mesh Transformation (Rotation)
 void RotateModel(float angle, glm::vec3 axis)
 {
-    
+    modelMatrix = glm::rotate(modelMatrix, angle, axis);
 }
 
 // TODO: insert your code in this function for Mesh Transformation (Translation)
 void TranslateModel(glm::vec3 transVec)
 {
-
+    modelMatrix = glm::translate(modelMatrix, transVec);
 }
 
 // TODO: insert your code in this function for Mesh Transformation (Scaling)
 void ScaleModel(float scale)
 {
-    
+    modelMatrix = glm::scale(modelMatrix, glm::vec3(scale, scale, scale));
 }
 
 
