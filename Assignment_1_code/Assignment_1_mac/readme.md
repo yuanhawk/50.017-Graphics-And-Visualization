@@ -7,8 +7,8 @@ model.LoadFile("../data/sphere.obj")
 
 In the objmodel.cpp file, file is read line by line, and separated into vertex, vertex normal, and faces.
 
-Vertex has the following format: ```"v %f %f %f"```
-Vertex normal has the following format: ```"vn %f %f %f"```
+Vertex has the following format: ```"v %f %f %f"```<br>
+Vertex normal has the following format: ```"vn %f %f %f"```<br>
 Face has the following format: ```"f %d/%d/%d %d/%d/%d %d/%d/%d"```
 
 At each line, we use sscanf to get the float (vertex and vertex normal) and unsigned integer (face).
@@ -34,9 +34,9 @@ values starting from index 1, instead of 0 based indices that we are working wit
 
 https://stackoverflow.com/questions/4346556/loading-indices-from-wavefront-obj-format
 
-<img src="data/garg.png">
-<img src="data/mickey.png">
-<img src="data/sphere.png">
+<img src="img/garg.png">
+<img src="img/mickey.png">
+<img src="img/sphere.png">
 
 
 3. Mesh Coloring: Change rendering color of the mesh model
@@ -61,9 +61,9 @@ glUniform3fv(glGetUniformLocation(myShader.ID, "meshColor"), 1, &colorTable[colo
 
 4. Mesh Transformation: Rotate, translate, and scale the mesh model
 ```
-        // render the loaded model
-        //glm::vec3 aColor = glm::vec3 (0.6f, 1.0f, 0.6f);
-        glUniformMatrix4fv(glGetUniformLocation(myShader.ID, "model"), 1, GL_FALSE, &modelMatrix[0][0]);
+// render the loaded model
+//glm::vec3 aColor = glm::vec3 (0.6f, 1.0f, 0.6f);
+glUniformMatrix4fv(glGetUniformLocation(myShader.ID, "model"), 1, GL_FALSE, &modelMatrix[0][0]);
 ```
 From this line of code in main.cpp, we can determine that the modelMatrix is the model that is attached to the shader, so
 the transformation will be done on the modelMatrix.
