@@ -419,7 +419,7 @@ CMakeFiles/Assignment_1.dir/src/main.cpp.o: \
  /home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_1_code/Assignment_1_mac/includes/glm/detail/func_integer.inl \
  /home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_1_code/Assignment_1_mac/includes/glm/detail/func_integer_simd.inl \
  /home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_1_code/Assignment_1_mac/includes/glm/detail/../simd/integer.h \
- /home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_1_code/Assignment_1_mac/src/meshloading/loadmesh.h \
+ /home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_1_code/Assignment_1_mac/src/objmodel/objmodel.h \
  /usr/include/c++/12.1.0/algorithm \
  /usr/include/c++/12.1.0/bits/stl_algo.h \
  /usr/include/c++/12.1.0/bits/algorithmfwd.h \

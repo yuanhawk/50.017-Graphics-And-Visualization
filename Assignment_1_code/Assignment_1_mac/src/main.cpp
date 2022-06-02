@@ -22,7 +22,7 @@
 
 #include "shaderSource.h"
 #include "shader.h"
-#include "meshloading/loadmesh.h"
+#include "objmodel/objmodel.h"
 
 
 using namespace std;
@@ -103,11 +103,10 @@ int LoadInput(vector<float> &verList, vector<unsigned> &triList)
     // Note: these two lines of code is to avoid runtime error; 
     //       please remove them after you fill your own code for 3D model loading
 
-    loadmesh *lm = new loadmesh(verList, triList);
-
-    if (lm->ReadFile("../data/sphere.obj")) {
-        verList = lm->getVerList();
-        triList = lm->getTriList();
+    objmodel model;
+    if (model.LoadFile("../data/garg.obj")) {
+        verList = model.GetVerList();
+        triList = model.GetTriList();
     }
 
     return 0;

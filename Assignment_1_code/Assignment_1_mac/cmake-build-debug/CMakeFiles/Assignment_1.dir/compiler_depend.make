@@ -484,7 +484,7 @@ CMakeFiles/Assignment_1.dir/src/main.cpp.o: ../src/main.cpp \
   ../includes/glm/detail/func_integer.inl \
   ../includes/glm/detail/func_integer_simd.inl \
   ../includes/glm/simd/integer.h \
-  ../src/meshloading/loadmesh.h \
+  ../src/objmodel/objmodel.h \
   /usr/include/c++/12.1.0/algorithm \
   /usr/include/c++/12.1.0/bits/stl_algo.h \
   /usr/include/c++/12.1.0/bits/algorithmfwd.h \
@@ -492,9 +492,9 @@ CMakeFiles/Assignment_1.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/c++/12.1.0/bits/stl_tempbuf.h \
   /usr/include/c++/12.1.0/bits/uniform_int_dist.h
 
-CMakeFiles/Assignment_1.dir/src/meshloading/loadmesh.cpp.o: ../src/meshloading/loadmesh.cpp \
+CMakeFiles/Assignment_1.dir/src/objmodel/objmodel.cpp.o: ../src/objmodel/objmodel.cpp \
   /usr/include/stdc-predef.h \
-  ../src/meshloading/loadmesh.h \
+  ../src/objmodel/objmodel.h \
   /usr/include/c++/12.1.0/vector \
   /usr/include/c++/12.1.0/bits/stl_algobase.h \
   /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -678,6 +678,9 @@ CMakeFiles/Assignment_1.dir/src/meshloading/loadmesh.cpp.o: ../src/meshloading/l
   /usr/include/c++/12.1.0/bits/ostream.tcc \
   /usr/include/c++/12.1.0/istream \
   /usr/include/c++/12.1.0/bits/istream.tcc \
+  /usr/include/c++/12.1.0/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
   /usr/include/c++/12.1.0/fstream \
   /usr/include/c++/12.1.0/bits/codecvt.h \
   /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/basic_file.h \
@@ -692,8 +695,6 @@ CMakeFiles/Assignment_1.dir/src/meshloading/loadmesh.cpp.o: ../src/meshloading/l
   /usr/include/c++/12.1.0/bits/stl_tempbuf.h \
   /usr/include/c++/12.1.0/bits/uniform_int_dist.h
 
-
-../src/meshloading/loadmesh.cpp:
 
 /usr/include/c++/12.1.0/bits/uniform_int_dist.h:
 
@@ -754,6 +755,8 @@ CMakeFiles/Assignment_1.dir/src/meshloading/loadmesh.cpp.o: ../src/meshloading/l
 ../includes/glm/detail/func_geometric_simd.inl:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include/keylockerintrin.h:
+
+../src/objmodel/objmodel.cpp:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include/prfchwintrin.h:
 
@@ -1199,6 +1202,8 @@ CMakeFiles/Assignment_1.dir/src/meshloading/loadmesh.cpp.o: ../src/meshloading/l
 
 /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/basic_file.h:
 
+../src/objmodel/objmodel.h:
+
 ../src/main.cpp:
 
 ../includes/glm/exponential.hpp:
@@ -1214,8 +1219,6 @@ CMakeFiles/Assignment_1.dir/src/meshloading/loadmesh.cpp.o: ../src/meshloading/l
 ../includes/glm/ext/vector_float2_precision.hpp:
 
 /usr/include/stdc-predef.h:
-
-../src/meshloading/loadmesh.h:
 
 ../includes/glm/simd/geometric.h:
 

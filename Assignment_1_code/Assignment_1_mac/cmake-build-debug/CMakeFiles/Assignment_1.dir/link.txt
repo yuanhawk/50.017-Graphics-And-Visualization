@@ -1,1 +1,1 @@
-/usr/bin/c++ -std=c++11 -g -rdynamic CMakeFiles/Assignment_1.dir/src/main.cpp.o CMakeFiles/Assignment_1.dir/src/meshloading/loadmesh.cpp.o -o Assignment_1  -lglfw libGLAD.a -lglfw 
+/usr/bin/c++ -std=c++11 -g -rdynamic CMakeFiles/Assignment_1.dir/src/main.cpp.o CMakeFiles/Assignment_1.dir/src/objmodel/objmodel.cpp.o -o Assignment_1  -lglfw libGLAD.a -lglfw 

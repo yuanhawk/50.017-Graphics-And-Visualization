@@ -136,10 +136,13 @@
 		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_1_code/Assignment_1_mac/src/main.cpp">
 			<Option target="Assignment_1"/>
 		</Unit>
-		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_1_code/Assignment_1_mac/src/meshloading/loadmesh.cpp">
+		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_1_code/Assignment_1_mac/src/objmodel/objmodel.cpp">
 			<Option target="Assignment_1"/>
 		</Unit>
-		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_1_code/Assignment_1_mac/src/meshloading/loadmesh.h">
+		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_1_code/Assignment_1_mac/src/objmodel/objmodel.h">
+			<Option target="Assignment_1"/>
+		</Unit>
+		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_1_code/Assignment_1_mac/src/vector3.h">
 			<Option target="Assignment_1"/>
 		</Unit>
 		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_1_code/Assignment_1_mac/CMakeLists.txt">

@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
-  "CMakeFiles/3.23.1/CMakeCCompiler.cmake"
-  "CMakeFiles/3.23.1/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.23.1/CMakeSystem.cmake"
+  "CMakeFiles/3.23.2/CMakeCCompiler.cmake"
+  "CMakeFiles/3.23.2/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.23.2/CMakeSystem.cmake"
   "../cmake/modules/FindGLFW3.cmake"
   "/usr/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCXXInformation.cmake"

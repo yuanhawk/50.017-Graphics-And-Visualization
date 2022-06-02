@@ -21,6 +21,6 @@ add_library(GLAD "src/glad.c")
 set(LIBS ${LIBS} GLAD)
 include_directories(${CMAKE_SOURCE_DIR}/includes)
 
-add_executable(Assignment_1 src/main.cpp src/meshloading/loadmesh.cpp src/meshloading/loadmesh.h)
+add_executable(Assignment_1 src/main.cpp src/objmodel/objmodel.cpp src/objmodel/objmodel.h src/vector3.h)
 target_link_libraries(Assignment_1 ${LIBS})
 target_link_libraries(Assignment_1 ${GLFW3_LIBRARY})

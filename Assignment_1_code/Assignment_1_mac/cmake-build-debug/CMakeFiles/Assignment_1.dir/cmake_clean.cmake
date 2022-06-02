@@ -3,8 +3,8 @@ file(REMOVE_RECURSE
   "Assignment_1.pdb"
   "CMakeFiles/Assignment_1.dir/src/main.cpp.o"
   "CMakeFiles/Assignment_1.dir/src/main.cpp.o.d"
-  "CMakeFiles/Assignment_1.dir/src/meshloading/loadmesh.cpp.o"
-  "CMakeFiles/Assignment_1.dir/src/meshloading/loadmesh.cpp.o.d"
+  "CMakeFiles/Assignment_1.dir/src/objmodel/objmodel.cpp.o"
+  "CMakeFiles/Assignment_1.dir/src/objmodel/objmodel.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

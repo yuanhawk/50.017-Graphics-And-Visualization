@@ -83,30 +83,30 @@ CMakeFiles/Assignment_1.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment_1.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_1_code/Assignment_1_mac/src/main.cpp -o CMakeFiles/Assignment_1.dir/src/main.cpp.s
 
-CMakeFiles/Assignment_1.dir/src/meshloading/loadmesh.cpp.o: CMakeFiles/Assignment_1.dir/flags.make
-CMakeFiles/Assignment_1.dir/src/meshloading/loadmesh.cpp.o: ../src/meshloading/loadmesh.cpp
-CMakeFiles/Assignment_1.dir/src/meshloading/loadmesh.cpp.o: CMakeFiles/Assignment_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_1_code/Assignment_1_mac/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Assignment_1.dir/src/meshloading/loadmesh.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Assignment_1.dir/src/meshloading/loadmesh.cpp.o -MF CMakeFiles/Assignment_1.dir/src/meshloading/loadmesh.cpp.o.d -o CMakeFiles/Assignment_1.dir/src/meshloading/loadmesh.cpp.o -c /home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_1_code/Assignment_1_mac/src/meshloading/loadmesh.cpp
+CMakeFiles/Assignment_1.dir/src/objmodel/objmodel.cpp.o: CMakeFiles/Assignment_1.dir/flags.make
+CMakeFiles/Assignment_1.dir/src/objmodel/objmodel.cpp.o: ../src/objmodel/objmodel.cpp
+CMakeFiles/Assignment_1.dir/src/objmodel/objmodel.cpp.o: CMakeFiles/Assignment_1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_1_code/Assignment_1_mac/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Assignment_1.dir/src/objmodel/objmodel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Assignment_1.dir/src/objmodel/objmodel.cpp.o -MF CMakeFiles/Assignment_1.dir/src/objmodel/objmodel.cpp.o.d -o CMakeFiles/Assignment_1.dir/src/objmodel/objmodel.cpp.o -c /home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_1_code/Assignment_1_mac/src/objmodel/objmodel.cpp
 
-CMakeFiles/Assignment_1.dir/src/meshloading/loadmesh.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment_1.dir/src/meshloading/loadmesh.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_1_code/Assignment_1_mac/src/meshloading/loadmesh.cpp > CMakeFiles/Assignment_1.dir/src/meshloading/loadmesh.cpp.i
+CMakeFiles/Assignment_1.dir/src/objmodel/objmodel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment_1.dir/src/objmodel/objmodel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_1_code/Assignment_1_mac/src/objmodel/objmodel.cpp > CMakeFiles/Assignment_1.dir/src/objmodel/objmodel.cpp.i
 
-CMakeFiles/Assignment_1.dir/src/meshloading/loadmesh.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment_1.dir/src/meshloading/loadmesh.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_1_code/Assignment_1_mac/src/meshloading/loadmesh.cpp -o CMakeFiles/Assignment_1.dir/src/meshloading/loadmesh.cpp.s
+CMakeFiles/Assignment_1.dir/src/objmodel/objmodel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment_1.dir/src/objmodel/objmodel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_1_code/Assignment_1_mac/src/objmodel/objmodel.cpp -o CMakeFiles/Assignment_1.dir/src/objmodel/objmodel.cpp.s
 
 # Object files for target Assignment_1
 Assignment_1_OBJECTS = \
 "CMakeFiles/Assignment_1.dir/src/main.cpp.o" \
-"CMakeFiles/Assignment_1.dir/src/meshloading/loadmesh.cpp.o"
+"CMakeFiles/Assignment_1.dir/src/objmodel/objmodel.cpp.o"
 
 # External object files for target Assignment_1
 Assignment_1_EXTERNAL_OBJECTS =
 
 Assignment_1: CMakeFiles/Assignment_1.dir/src/main.cpp.o
-Assignment_1: CMakeFiles/Assignment_1.dir/src/meshloading/loadmesh.cpp.o
+Assignment_1: CMakeFiles/Assignment_1.dir/src/objmodel/objmodel.cpp.o
 Assignment_1: CMakeFiles/Assignment_1.dir/build.make
 Assignment_1: /usr/lib/libglfw.so
 Assignment_1: libGLAD.a

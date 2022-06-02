@@ -190,29 +190,29 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment_1.dir/build.make CMakeFiles/Assignment_1.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/meshloading/loadmesh.o: src/meshloading/loadmesh.cpp.o
-.PHONY : src/meshloading/loadmesh.o
+src/objmodel/objmodel.o: src/objmodel/objmodel.cpp.o
+.PHONY : src/objmodel/objmodel.o
 
 # target to build an object file
-src/meshloading/loadmesh.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment_1.dir/build.make CMakeFiles/Assignment_1.dir/src/meshloading/loadmesh.cpp.o
-.PHONY : src/meshloading/loadmesh.cpp.o
+src/objmodel/objmodel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment_1.dir/build.make CMakeFiles/Assignment_1.dir/src/objmodel/objmodel.cpp.o
+.PHONY : src/objmodel/objmodel.cpp.o
 
-src/meshloading/loadmesh.i: src/meshloading/loadmesh.cpp.i
-.PHONY : src/meshloading/loadmesh.i
+src/objmodel/objmodel.i: src/objmodel/objmodel.cpp.i
+.PHONY : src/objmodel/objmodel.i
 
 # target to preprocess a source file
-src/meshloading/loadmesh.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment_1.dir/build.make CMakeFiles/Assignment_1.dir/src/meshloading/loadmesh.cpp.i
-.PHONY : src/meshloading/loadmesh.cpp.i
+src/objmodel/objmodel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment_1.dir/build.make CMakeFiles/Assignment_1.dir/src/objmodel/objmodel.cpp.i
+.PHONY : src/objmodel/objmodel.cpp.i
 
-src/meshloading/loadmesh.s: src/meshloading/loadmesh.cpp.s
-.PHONY : src/meshloading/loadmesh.s
+src/objmodel/objmodel.s: src/objmodel/objmodel.cpp.s
+.PHONY : src/objmodel/objmodel.s
 
 # target to generate assembly for a file
-src/meshloading/loadmesh.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment_1.dir/build.make CMakeFiles/Assignment_1.dir/src/meshloading/loadmesh.cpp.s
-.PHONY : src/meshloading/loadmesh.cpp.s
+src/objmodel/objmodel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment_1.dir/build.make CMakeFiles/Assignment_1.dir/src/objmodel/objmodel.cpp.s
+.PHONY : src/objmodel/objmodel.cpp.s
 
 # Help Target
 help:
@@ -230,9 +230,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/meshloading/loadmesh.o"
-	@echo "... src/meshloading/loadmesh.i"
-	@echo "... src/meshloading/loadmesh.s"
+	@echo "... src/objmodel/objmodel.o"
+	@echo "... src/objmodel/objmodel.i"
+	@echo "... src/objmodel/objmodel.s"
 .PHONY : help
 
 
