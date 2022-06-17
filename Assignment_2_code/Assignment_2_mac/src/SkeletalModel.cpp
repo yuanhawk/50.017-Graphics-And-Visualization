@@ -19,7 +19,8 @@
 //       (i.e., set values for m_rootJoint and m_joints)
 void SkeletalModel::loadSkeleton( const char* filename )
 {
-    ifstream fileStream(filename, ios::in);
+    string path = "../data/";
+    ifstream fileStream(path.append(filename), ios::in);
 
     if (!fileStream.is_open()) {
         cout << "Failed to read " << filename << "! File doesn't exist." << endl;
@@ -128,9 +129,9 @@ void SkeletalModel::computeBoneTransforms(Joint* joint, MatrixStack matrixStack)
 void SkeletalModel::setJointTransform(int jointIndex, float angleX, float angleY, float angleZ)
 {
     mat4 Mx, My, Mz;
-    Mx = rotate(mat4(1.0f), angleX, vec3(0.0f, 1.0f, 1.0f));
-    My = rotate(mat4(1.0f), angleY, vec3(1.0f, 0.0f, 1.0f));
-    Mz = rotate(mat4(1.0f), angleZ, vec3(1.0f, 1.0f, 0.0f));
+    Mx = rotate(mat4(1.0f), angleX, vec3(1, 0, 0));
+    My = rotate(mat4(1.0f), angleY, vec3(0, 1, 0));
+    Mz = rotate(mat4(1.0f), angleZ, vec3(0, 0, 1));
 
     Joint* joint = m_joints[jointIndex]; // defining pointer variable
     m_joints[jointIndex]->transform = joint->transform * Mz * My * Mx; // applying rotations
