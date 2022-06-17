@@ -129,9 +129,9 @@ void SkeletalModel::computeBoneTransforms(Joint* joint, MatrixStack matrixStack)
 void SkeletalModel::setJointTransform(int jointIndex, float angleX, float angleY, float angleZ)
 {
     mat4 Mx, My, Mz;
-    Mx = rotate(mat4(1.0f), angleX, vec3(1, 0, 0));
-    My = rotate(mat4(1.0f), angleY, vec3(0, 1, 0));
-    Mz = rotate(mat4(1.0f), angleZ, vec3(0, 0, 1));
+    Mx = rotate(mat4(1.0f), angleX, vec3(0, 1, 1));
+    My = rotate(mat4(1.0f), angleY, vec3(1, 0, 1));
+    Mz = rotate(mat4(1.0f), angleZ, vec3(1, 1, 0));
 
     Joint* joint = m_joints[jointIndex]; // defining pointer variable
     m_joints[jointIndex]->transform = joint->transform * Mz * My * Mx; // applying rotations
