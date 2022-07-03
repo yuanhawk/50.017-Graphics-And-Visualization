@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++11 -g -rdynamic CMakeFiles/Assignment_3.dir/src/main.cpp.o -o Assignment_3  -lglfw libGLAD.a -lglfw 
