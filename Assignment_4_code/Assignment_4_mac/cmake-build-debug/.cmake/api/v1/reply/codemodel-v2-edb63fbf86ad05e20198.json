@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Assignment_4",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Assignment_4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Assignment_4-Debug-bea23be7bab3c74cfbbf.json",
+					"name" : "Assignment_4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "source_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-source_lib-Debug-cbdea1a8a0eb64bd04ed.json",
+					"name" : "source_lib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug",
+		"source" : "/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

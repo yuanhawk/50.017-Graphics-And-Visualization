@@ -1,0 +1,4 @@
+/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/build/CMakeFiles/source_lib.dir
+/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/build/CMakeFiles/Assignment_4.dir
+/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/build/CMakeFiles/edit_cache.dir
+/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/build/CMakeFiles/rebuild_cache.dir

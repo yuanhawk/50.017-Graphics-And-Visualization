@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Assignment_4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="source_lib">
+				<Option output="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/libsource_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/includes"/>
+					<Add directory="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/SYSTEM"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Makefile&quot;  VERBOSE=1 source_lib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="source_lib/fast">
+				<Option output="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/libsource_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/includes"/>
+					<Add directory="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/SYSTEM"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Makefile&quot;  VERBOSE=1 source_lib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Assignment_4">
+				<Option output="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Assignment_4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/includes"/>
+					<Add directory="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/SYSTEM"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment_4"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Assignment_4/fast">
+				<Option output="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Assignment_4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/includes"/>
+					<Add directory="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/SYSTEM"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment_4/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/src/Camera.h">
+			<Option target="source_lib"/>
+		</Unit>
+		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/src/Group.h">
+			<Option target="source_lib"/>
+		</Unit>
+		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/src/Hit.h">
+			<Option target="source_lib"/>
+		</Unit>
+		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/src/Image.cpp">
+			<Option target="source_lib"/>
+		</Unit>
+		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/src/Image.h">
+			<Option target="source_lib"/>
+		</Unit>
+		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/src/Light.h">
+			<Option target="source_lib"/>
+		</Unit>
+		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/src/Material.h">
+			<Option target="source_lib"/>
+		</Unit>
+		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/src/Mesh.cpp">
+			<Option target="source_lib"/>
+		</Unit>
+		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/src/Mesh.hpp">
+			<Option target="source_lib"/>
+		</Unit>
+		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/src/Object3D.h">
+			<Option target="source_lib"/>
+		</Unit>
+		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/src/Plane.h">
+			<Option target="source_lib"/>
+		</Unit>
+		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/src/Ray.h">
+			<Option target="source_lib"/>
+		</Unit>
+		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/src/SceneParser.cpp">
+			<Option target="source_lib"/>
+		</Unit>
+		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/src/SceneParser.h">
+			<Option target="source_lib"/>
+		</Unit>
+		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/src/Sphere.h">
+			<Option target="source_lib"/>
+		</Unit>
+		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/src/Transform.h">
+			<Option target="source_lib"/>
+		</Unit>
+		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/src/Triangle.h">
+			<Option target="source_lib"/>
+		</Unit>
+		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/src/VecUtils.h">
+			<Option target="source_lib"/>
+		</Unit>
+		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/src/bitmap_image.hpp">
+			<Option target="source_lib"/>
+		</Unit>
+		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/src/main.cpp">
+			<Option target="source_lib"/>
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/src/texture.cpp">
+			<Option target="source_lib"/>
+		</Unit>
+		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/src/texture.hpp">
+			<Option target="source_lib"/>
+		</Unit>
+		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/src/vecmath.h">
+			<Option target="source_lib"/>
+		</Unit>
+		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/yuanhawk/50.017-Graphics-And-Visualization/Assignment_4_code/Assignment_4_mac/cmake/modules/FindGLM.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

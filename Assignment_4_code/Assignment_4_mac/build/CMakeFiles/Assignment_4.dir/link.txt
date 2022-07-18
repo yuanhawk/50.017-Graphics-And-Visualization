@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/Assignment_4.dir/src/main.cpp.o -o Assignment_4  libsource_lib.a -lGL -lGLU -lglut 
